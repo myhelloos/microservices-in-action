@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class MicroservicesInActionApplication
+class SimpleServiceApplication
 
 fun main(args: Array<String>) {
-	runApplication<MicroservicesInActionApplication>(*args) {
+	runApplication<SimpleServiceApplication>(*args) {
 		setBannerMode(Banner.Mode.OFF)
 	}
 }
